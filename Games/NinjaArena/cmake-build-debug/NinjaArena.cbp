@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NinjaArena"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NinjaArena">
+				<Option output="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/NinjaArena" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 NinjaArena"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NinjaArena/fast">
+				<Option output="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/NinjaArena" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 NinjaArena/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/Bullet.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/Bullet.h">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/CreateBackground.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/CreateHorde.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/Enemy.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/Enemy.h">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/EnemyPickup.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/EnemyPickup.h">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/NinjaArena.h">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/Pickup.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/Pickup.h">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/Player.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/Player.h">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/TextureHolder.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/TextureHolder.h">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/main.cpp">
+			<Option target="NinjaArena"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/NinjaArena/../../../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

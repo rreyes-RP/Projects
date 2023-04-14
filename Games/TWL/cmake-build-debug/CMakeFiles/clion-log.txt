@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/TWL -B /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/TWL/cmake-build-debug
+-- Found SFML 2.5.1 in /opt/homebrew/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/TWL/cmake-build-debug

@@ -1,0 +1,407 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Space_Invaders____2
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Space_Invaders____2
+
+
+#############################################
+# Order-only phony target for Space_Invaders____2
+
+build cmake_object_order_depends_target_Space_Invaders____2: phony || CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/BitmapStore.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/BitmapStore.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/BitmapStore.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/BlueprintObjectParser.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/BlueprintObjectParser.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/BlueprintObjectParser.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/BulletSpawner.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/BulletSpawner.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/BulletSpawner.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/BulletUpdateComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/BulletUpdateComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/BulletUpdateComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/Button.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/Button.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/Button.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/ColliderComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/ColliderComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/ColliderComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/Component.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/Component.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/Component.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameEngine.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameEngine.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameEngine.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameInputHandler.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameInputHandler.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameInputHandler.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameObject.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameObject.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameObject.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameObjectBlueprint.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameObjectBlueprint.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameObjectBlueprint.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameObjectFactoryPlayMode.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameObjectFactoryPlayMode.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameObjectFactoryPlayMode.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameOverInputHandler.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameOverInputHandler.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameOverInputHandler.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameOverUIPanel.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameOverUIPanel.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameOverUIPanel.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameScreen.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameScreen.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameScreen.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GameUIPanel.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GameUIPanel.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GameUIPanel.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/GraphicsComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/GraphicsComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/GraphicsComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/InputHandler.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/InputHandler.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/InputHandler.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/InvaderUpdateComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/InvaderUpdateComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/InvaderUpdateComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/LevelManager.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/LevelManager.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/LevelManager.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/ObjectTags.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/ObjectTags.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/ObjectTags.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/PhysicsEnginePlayMode.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/PhysicsEnginePlayMode.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/PhysicsEnginePlayMode.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/PlayerUpdateComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/PlayerUpdateComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/PlayerUpdateComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/PlayModeObjectLoader.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/PlayModeObjectLoader.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/PlayModeObjectLoader.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/RectColliderComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/RectColliderComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/RectColliderComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/Screen.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/Screen.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/Screen.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/ScreenManager.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/ScreenManager.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/ScreenManager.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/ScreenManagerRemoteControl.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/ScreenManagerRemoteControl.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/ScreenManagerRemoteControl.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/SelectInputHandler.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/SelectInputHandler.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/SelectInputHandler.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/SelectScreen.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/SelectScreen.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/SelectScreen.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/SelectUIPanel.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/SelectUIPanel.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/SelectUIPanel.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/SoundEngine.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/SoundEngine.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/SoundEngine.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/Space_Invaders_++.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/Space$ Invaders$ ++.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/Space_Invaders_++.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/StandardGraphicsComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/StandardGraphicsComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/StandardGraphicsComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/TransformComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/TransformComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/TransformComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/UIPanel.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/UIPanel.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/UIPanel.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/UpdateComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/UpdateComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/UpdateComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/ShieldUpdateComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/ShieldUpdateComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/ShieldUpdateComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+build CMakeFiles/Space_Invaders____2.dir/UfoUpdateComponent.cpp.o: CXX_COMPILER__Space_Invaders____2_Debug /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space$ Invaders$ ++$ 2/UfoUpdateComponent.cpp || cmake_object_order_depends_target_Space_Invaders____2
+  DEP_FILE = CMakeFiles/Space_Invaders____2.dir/UfoUpdateComponent.cpp.o.d
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Invaders____2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Space_Invaders____2
+
+
+#############################################
+# Link the executable Space_Invaders____2
+
+build Space_Invaders____2: CXX_EXECUTABLE_LINKER__Space_Invaders____2_Debug CMakeFiles/Space_Invaders____2.dir/BitmapStore.cpp.o CMakeFiles/Space_Invaders____2.dir/BlueprintObjectParser.cpp.o CMakeFiles/Space_Invaders____2.dir/BulletSpawner.cpp.o CMakeFiles/Space_Invaders____2.dir/BulletUpdateComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/Button.cpp.o CMakeFiles/Space_Invaders____2.dir/ColliderComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/Component.cpp.o CMakeFiles/Space_Invaders____2.dir/GameEngine.cpp.o CMakeFiles/Space_Invaders____2.dir/GameInputHandler.cpp.o CMakeFiles/Space_Invaders____2.dir/GameObject.cpp.o CMakeFiles/Space_Invaders____2.dir/GameObjectBlueprint.cpp.o CMakeFiles/Space_Invaders____2.dir/GameObjectFactoryPlayMode.cpp.o CMakeFiles/Space_Invaders____2.dir/GameOverInputHandler.cpp.o CMakeFiles/Space_Invaders____2.dir/GameOverUIPanel.cpp.o CMakeFiles/Space_Invaders____2.dir/GameScreen.cpp.o CMakeFiles/Space_Invaders____2.dir/GameUIPanel.cpp.o CMakeFiles/Space_Invaders____2.dir/GraphicsComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/InputHandler.cpp.o CMakeFiles/Space_Invaders____2.dir/InvaderUpdateComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/LevelManager.cpp.o CMakeFiles/Space_Invaders____2.dir/ObjectTags.cpp.o CMakeFiles/Space_Invaders____2.dir/PhysicsEnginePlayMode.cpp.o CMakeFiles/Space_Invaders____2.dir/PlayerUpdateComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/PlayModeObjectLoader.cpp.o CMakeFiles/Space_Invaders____2.dir/RectColliderComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/Screen.cpp.o CMakeFiles/Space_Invaders____2.dir/ScreenManager.cpp.o CMakeFiles/Space_Invaders____2.dir/ScreenManagerRemoteControl.cpp.o CMakeFiles/Space_Invaders____2.dir/SelectInputHandler.cpp.o CMakeFiles/Space_Invaders____2.dir/SelectScreen.cpp.o CMakeFiles/Space_Invaders____2.dir/SelectUIPanel.cpp.o CMakeFiles/Space_Invaders____2.dir/SoundEngine.cpp.o CMakeFiles/Space_Invaders____2.dir/Space_Invaders_++.cpp.o CMakeFiles/Space_Invaders____2.dir/StandardGraphicsComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/TransformComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/UIPanel.cpp.o CMakeFiles/Space_Invaders____2.dir/UpdateComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/ShieldUpdateComponent.cpp.o CMakeFiles/Space_Invaders____2.dir/UfoUpdateComponent.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-audio.2.5.1.dylib /opt/homebrew/lib/libsfml-network.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+  FLAGS = -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib  /opt/homebrew/lib/libsfml-audio.2.5.1.dylib  /opt/homebrew/lib/libsfml-network.2.5.1.dylib  /opt/homebrew/lib/libsfml-window.2.5.1.dylib  /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+  OBJECT_DIR = CMakeFiles/Space_Invaders____2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Space_Invaders____2
+  TARGET_PDB = Space_Invaders____2.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space Invaders ++ 2/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space Invaders ++ 2/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space Invaders ++ 2" -B"/Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space Invaders ++ 2/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/roriereyes/Documents/School/Fall_2022/Reyes-Homework/Space Invaders ++ 2/cmake-build-debug
+
+build all: phony Space_Invaders____2
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
