@@ -44,7 +44,3 @@ class TopKFreqElements:
     nums = [1,2,3,1,1,2,3,3,4,5,5,5,3,3,3,5,5,3]
     k = 2
     print(topKFreqElements(nums, k))
-                
-                
-        
-    

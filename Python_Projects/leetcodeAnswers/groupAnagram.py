@@ -24,8 +24,6 @@ class GroupAnagrams:
         
         return res.values()
         
-        
-        
     strs = ["eat","tea","tan","ate","nat","bat"]
     # Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
     print(groupAnagrams(strs))
