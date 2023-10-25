@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCM Plug Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <h1>HT Request Tool</h1>
+
+    <div class="form-container">
+        <label for="csvFile">Upload CSV File:</label>
+        <input type="file" id="csvFile" accept=".csv">
+        <br>
+
+        <label for="w3id">W3ID*:</label>
+        <input type="text" id="w3id">
+        <br>
+
+        <label for="password">Password*:</label>
+        <input type="password" id="password">
+        <br>
+
+        <label for="quantity">Quantity of DCMs to Plug*:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+        </select>
+        <br>
+
+        <label for="machine">Machine*:</label>
+        <select id="machine">
+            <option value="" disabled selected>--select--</option>
+            <option value="B01">B01</option>
+            <option value="B02">B02</option>
+            <option value="B03">B03</option>
+            <option value="B04">B04</option>
+            <option value="B05">B05</option>
+        </select>
+        <br>
+
+        <label for="priority">Priority*:</label>
+        <select id="priority">
+            <option value="" disabled selected>--select--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+
+        <label for="additionalInfo">Enter any additional information here:</label>
+        <textarea id="additionalInfo" rows="4"></textarea>
+        <br>
+
+        <button onclick="handleSubmit()">Submit</button>
+    </div>
+
+    <div id="serialNumbersTableContainer">
+        <h2>Serial Numbers</h2>
+        <table id="serialNumbersTable">
+            <thead>
+                <tr>
+                    <th>Serial Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Serial numbers will be dynamically added here -->
+            </tbody>
+        </table>
+        <button onclick="generateTicket()">Generate Ticket</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
