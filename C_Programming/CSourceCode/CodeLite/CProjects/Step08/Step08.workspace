@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Step08" Database="./Step08.tags">
+  <Project Name="01_Structs" Path="01_Structs/01_Structs.project" Active="No"/>
+  <Project Name="02_Typedefs" Path="02_Typedefs/02_Typedefs.project" Active="No"/>
+  <Project Name="03_Enums" Path="03_Enums/03_Enums.project" Active="No"/>
+  <Project Name="04_HeaderFiles" Path="04_HeaderFiles/04_HeaderFiles.project" Active="No"/>
+  <Project Name="05_Scope" Path="05_Scope/05_Scope.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="01_Structs" ConfigName="Debug"/>
+      <Project Name="02_Typedefs" ConfigName="Debug"/>
+      <Project Name="03_Enums" ConfigName="Debug"/>
+      <Project Name="04_HeaderFiles" ConfigName="Debug"/>
+      <Project Name="05_Scope" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01_Structs" ConfigName="Release"/>
+      <Project Name="02_Typedefs" ConfigName="Release"/>
+      <Project Name="03_Enums" ConfigName="Release"/>
+      <Project Name="04_HeaderFiles" ConfigName="Release"/>
+      <Project Name="05_Scope" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

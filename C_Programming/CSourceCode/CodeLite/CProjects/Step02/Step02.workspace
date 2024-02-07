@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Step02" Database="./Step02.tags">
+  <Project Name="01_HelloWorld" Path="01_HelloWorld/01_HelloWorld.project" Active="Yes"/>
+  <Project Name="02_HelloWorldAgain" Path="02_HelloWorldAgain/02_HelloWorldAgain.project" Active="No"/>
+  <Project Name="03_HelloWorldArgs" Path="03_HelloWorldArgs/03_HelloWorldArgs.project" Active="No"/>
+  <Project Name="04_printf" Path="04_printf/04_printf.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="01_HelloWorld" ConfigName="Debug"/>
+      <Project Name="02_HelloWorldAgain" ConfigName="Debug"/>
+      <Project Name="03_HelloWorldArgs" ConfigName="Debug"/>
+      <Project Name="04_printf" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01_HelloWorld" ConfigName="Release"/>
+      <Project Name="02_HelloWorldAgain" ConfigName="Release"/>
+      <Project Name="03_HelloWorldArgs" ConfigName="Release"/>
+      <Project Name="04_printf" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

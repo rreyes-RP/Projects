@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Step03" Database="./Step03.tags">
+  <Project Name="01_Calc" Path="01_Calc/01_Calc.project" Active="No"/>
+  <Project Name="02_Calc" Path="02_Calc/02_Calc.project" Active="No"/>
+  <Project Name="03_Calc" Path="03_Calc/03_Calc.project" Active="No"/>
+  <Project Name="04_NamingConventions" Path="04_NamingConventions/04_NamingConventions.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="01_Calc" ConfigName="Debug"/>
+      <Project Name="02_Calc" ConfigName="Debug"/>
+      <Project Name="03_Calc" ConfigName="Debug"/>
+      <Project Name="04_NamingConventions" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01_Calc" ConfigName="Release"/>
+      <Project Name="02_Calc" ConfigName="Release"/>
+      <Project Name="03_Calc" ConfigName="Release"/>
+      <Project Name="04_NamingConventions" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

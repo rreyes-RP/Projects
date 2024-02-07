@@ -1,0 +1,1 @@
+./Debug/main.o ./Debug/mystring.o ./Debug/mystringutils.o   

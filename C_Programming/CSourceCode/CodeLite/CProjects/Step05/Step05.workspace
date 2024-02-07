@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Step05" Database="./Step05.tags">
+  <Project Name="01_Functions" Path="01_Functions/01_Functions.project" Active="No"/>
+  <Project Name="02_SwitchCase" Path="02_SwitchCase/02_SwitchCase.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="01_Functions" ConfigName="Debug"/>
+      <Project Name="02_SwitchCase" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01_Functions" ConfigName="Release"/>
+      <Project Name="02_SwitchCase" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

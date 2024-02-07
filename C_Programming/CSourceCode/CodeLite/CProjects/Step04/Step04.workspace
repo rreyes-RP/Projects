@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Step04" Database="./Step04.tags">
+  <Project Name="01_TestAge" Path="01_TestAge/01_TestAge.project" Active="No"/>
+  <Project Name="02_TestAge" Path="02_TestAge/02_TestAge.project" Active="No"/>
+  <Project Name="03_GetInput" Path="03_GetInput/03_GetInput.project" Active="Yes"/>
+  <Project Name="04_Readln" Path="04_Readln/04_Readln.project" Active="No"/>
+  <Project Name="00_Operators" Path="00_Operators/00_Operators.project" Active="No"/>
+  <Project Name="05_LogicalOperators" Path="05_LogicalOperators/05_LogicalOperators.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="01_TestAge" ConfigName="Debug"/>
+      <Project Name="02_TestAge" ConfigName="Debug"/>
+      <Project Name="03_GetInput" ConfigName="Debug"/>
+      <Project Name="04_Readln" ConfigName="Debug"/>
+      <Project Name="00_Operators" ConfigName="Debug"/>
+      <Project Name="05_LogicalOperators" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01_TestAge" ConfigName="Release"/>
+      <Project Name="02_TestAge" ConfigName="Release"/>
+      <Project Name="03_GetInput" ConfigName="Release"/>
+      <Project Name="04_Readln" ConfigName="Release"/>
+      <Project Name="00_Operators" ConfigName="Release"/>
+      <Project Name="05_LogicalOperators" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

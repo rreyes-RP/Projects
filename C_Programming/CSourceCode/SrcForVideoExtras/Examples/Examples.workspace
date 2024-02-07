@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Examples" Database="./Examples.tags">
+  <Project Name="Step2_Variables" Path="Step2_Variables/Step2_Variables.project" Active="No"/>
+  <Project Name="Step3_Constants" Path="Step3_Constants/Step3_Constants.project" Active="No"/>
+  <Project Name="Step5_IfElseIf" Path="Step5_IfElseIf/Step5_IfElseIf.project" Active="No"/>
+  <Project Name="Step6_Arrays" Path="Step6_Arrays/Step6_Arrays.project" Active="No"/>
+  <Project Name="Step6_while_loops" Path="Step6_while_loops/Step6_while_loops.project" Active="No"/>
+  <Project Name="Step6_break" Path="Step6_break/Step6_break.project" Active="No"/>
+  <Project Name="Step7_Strings" Path="Step7_Strings/Step7_Strings.project" Active="No"/>
+  <Project Name="Step8_Enums" Path="Step8_Enums/Step8_Enums.project" Active="No"/>
+  <Project Name="Step8_Scope" Path="Step8_Scope/Step8_Scope.project" Active="No"/>
+  <Project Name="Step10_TypeCasts" Path="Step10_TypeCasts/Step10_TypeCasts.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="Step2_Variables" ConfigName="Debug"/>
+      <Project Name="Step3_Constants" ConfigName="Debug"/>
+      <Project Name="Step5_IfElseIf" ConfigName="Debug"/>
+      <Project Name="Step6_Arrays" ConfigName="Debug"/>
+      <Project Name="Step6_while_loops" ConfigName="Debug"/>
+      <Project Name="Step6_break" ConfigName="Debug"/>
+      <Project Name="Step7_Strings" ConfigName="Debug"/>
+      <Project Name="Step8_Enums" ConfigName="Debug"/>
+      <Project Name="Step8_Scope" ConfigName="Debug"/>
+      <Project Name="Step10_TypeCasts" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Step2_Variables" ConfigName="Release"/>
+      <Project Name="Step3_Constants" ConfigName="Release"/>
+      <Project Name="Step5_IfElseIf" ConfigName="Release"/>
+      <Project Name="Step6_Arrays" ConfigName="Release"/>
+      <Project Name="Step6_while_loops" ConfigName="Release"/>
+      <Project Name="Step6_break" ConfigName="Release"/>
+      <Project Name="Step7_Strings" ConfigName="Release"/>
+      <Project Name="Step8_Enums" ConfigName="Release"/>
+      <Project Name="Step8_Scope" ConfigName="Release"/>
+      <Project Name="Step10_TypeCasts" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

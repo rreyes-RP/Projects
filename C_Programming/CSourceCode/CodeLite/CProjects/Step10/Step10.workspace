@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Step10" Database="./Step10.tags">
+  <Project Name="01_ReadFile" Path="01_ReadFile/01_ReadFile.project" Active="No"/>
+  <Project Name="02_CDdatabase" Path="02_CDdatabase/02_CDdatabase.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="01_ReadFile" ConfigName="Debug"/>
+      <Project Name="02_CDdatabase" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01_ReadFile" ConfigName="Release"/>
+      <Project Name="02_CDdatabase" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

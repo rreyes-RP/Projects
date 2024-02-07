@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Step07" Database="./Step07.tags">
+  <Project Name="01_StringIndex" Path="01_StringIndex/01_StringIndex.project" Active="No"/>
+  <Project Name="02_StringsAndPointers" Path="02_StringsAndPointers/02_StringsAndPointers.project" Active="No"/>
+  <Project Name="03_StringsAndAddresses" Path="03_StringsAndAddresses/03_StringsAndAddresses.project" Active="No"/>
+  <Project Name="04_ReturnStrings" Path="04_ReturnStrings/04_ReturnStrings.project" Active="Yes"/>
+  <Project Name="05_StringFunctions" Path="05_StringFunctions/05_StringFunctions.project" Active="No"/>
+  <Project Name="06_CharFunctions" Path="06_CharFunctions/06_CharFunctions.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="01_StringIndex" ConfigName="Debug"/>
+      <Project Name="02_StringsAndPointers" ConfigName="Debug"/>
+      <Project Name="03_StringsAndAddresses" ConfigName="Debug"/>
+      <Project Name="04_ReturnStrings" ConfigName="Debug"/>
+      <Project Name="05_StringFunctions" ConfigName="Debug"/>
+      <Project Name="06_CharFunctions" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01_StringIndex" ConfigName="Release"/>
+      <Project Name="02_StringsAndPointers" ConfigName="Release"/>
+      <Project Name="03_StringsAndAddresses" ConfigName="Release"/>
+      <Project Name="04_ReturnStrings" ConfigName="Release"/>
+      <Project Name="05_StringFunctions" ConfigName="Release"/>
+      <Project Name="06_CharFunctions" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
